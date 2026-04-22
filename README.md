@@ -48,12 +48,16 @@ The developers are not responsible for any misuse, damage, or legal consequences
      ```
      https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
      ```
-2. Open Boards Manager and install "ESP32"
+2. Open Boards Manager and install "ESP32" from Espressif Systems
 3. Load `esp32-handshake-capture.ino`
 4. Select:
    - Board: ESP32 Dev Module
    - Port: Your correct COM/tty port
-5. Click "Upload"
+5. If the port is missing, download the official driver:
+   - Go to Silicon Labs website
+   - Search for "CP210x Universal Windows Driver"
+   - Download the latest version
+6. Click "Upload"
 
 ### Option 2: PlatformIO (VS Code)
 
